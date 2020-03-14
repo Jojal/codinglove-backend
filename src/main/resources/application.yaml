@@ -1,0 +1,4 @@
+
+quarkus.http.cors=true
+
+codinglove-api/mp-rest/url=https://lesjoiesducode.fr/
