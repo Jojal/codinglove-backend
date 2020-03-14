@@ -1,4 +1,15 @@
+# Cors config
+quarkus:
+  http:
+    cors:
+      ~: true
+      methods: GET,PUT,POST
 
-quarkus.http.cors=true
+# REST Client configuration property
+bzh:
+  jojal:
+    web:
+      client:
+        CodingLoveClient/mp-rest/url: https://lesjoiesducode.fr/
+        scope: javax.inject.Singleton
 
-codinglove-api/mp-rest/url=https://lesjoiesducode.fr/
